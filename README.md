@@ -28,17 +28,19 @@ You obviously will need Vagrant installed on your host machine. The recommended 
 
 Also, make sure to install `rsync` on your host machine to enable `/vagrant/` shared folder.
 
+`sudo apt install rsync`
+
 ## Deploy
 
-Clone the files:
+Clone the repo:
 
 `git clone https://github.com/bebyx/dtapi.git`
 
-Go to the Vagrant directory:
+Go to the cloned directory:
 
 `cd dtapi/`
 
-Start Vagrant:
+Start Vagrant script:
 
 `vagrant up`
 
