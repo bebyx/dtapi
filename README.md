@@ -12,4 +12,4 @@
 
 Make sure to install `rsync` on your host machine to enable `/vagrant/` shared folder.
 
-Visit running app in your host machine browser: http://localhost:8080
+Visit running app in your host machine browser: http://192.168.50.100
