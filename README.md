@@ -10,6 +10,30 @@
 
 **VirtualBox:** Version 6.1.12 r139181 (Qt5.6.1)
 
-Make sure to install `rsync` on your host machine to enable `/vagrant/` shared folder.
+<details>
+  <summary>How to Install VirtualBox on Debian Bullseye/sid</summary>
+
+  https://www.youtube.com/watch?v=9KJ7B-mYKYA
+</details>
+
+**Vagrant box image:** [debian/buster64](https://app.vagrantup.com/debian/boxes/buster64) (virtualbox, 10.4.0)
+
+# Host machine dependencies
+
+You obviously will need Vagrant installed on your host machine. The recommended way is to install [the latest version](https://www.vagrantup.com/downloads) locally. (Indeed, the one from official Bullseye repository just breaks).
+
+`dpkg -i ./vagrant*.deb`
+
+Also, make sure to install `rsync` on your host machine to enable `/vagrant/` shared folder.
+
+## Deploy
+
+`git clone https://github.com/bebyx/dtapi.git`
+
+`cd dtapi/`
+
+`vagrant up`
+
+Wait while the script finishes its work.
 
 Visit running app in your host machine browser: http://192.168.50.100
