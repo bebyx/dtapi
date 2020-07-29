@@ -4,7 +4,7 @@
 
 ## Environment details
 
-**Technologies:** PHP Ko7, Angular, MySQL (MariaDB), Apache.
+**Technologies:** PHP Ko7, Angular, MySQL (MariaDB), Apache
 
 **Host machine OS:** Debian GNU/Linux bullseye/sid x86_64 — SMP Debian 5.7.6-1 (2020-06-24)
 
@@ -30,12 +30,18 @@ Also, make sure to install `rsync` on your host machine to enable `/vagrant/` sh
 
 ## Deploy
 
+Clone the files:
+
 `git clone https://github.com/bebyx/dtapi.git`
+
+Go to the Vagrant directory:
 
 `cd dtapi/`
 
+Start Vagrant:
+
 `vagrant up`
 
-Wait while the script finishes its work.
+Wait while the script finishes its work...
 
 Visit running app in your host machine browser: http://192.168.50.100
