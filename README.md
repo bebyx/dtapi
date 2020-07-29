@@ -1,6 +1,6 @@
 # Training deploy scripts
 
-[Vagrant](https://www.vagrantup.com/)-empowered script to deploy dtapi app ([backend](https://github.com/yurkovskiy/dtapi) and [frontend](https://github.com/yurkovskiy/IF-105.UI.dtapi.if.ua.io)).
+[Vagrant](https://www.vagrantup.com/)-empowered script to deploy dtapi app ([backend](https://github.com/yurkovskiy/dtapi) and [frontend](https://github.com/yurkovskiy/IF-105.UI.dtapi.if.ua.io)) connected to database server on a separate VM.
 
 **Technologies:** PHP Ko7, Angular, MySQL (MariaDB), Apache.
 
