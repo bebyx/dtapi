@@ -11,3 +11,5 @@
 **VirtualBox:** Version 6.1.12 r139181 (Qt5.6.1)
 
 Make sure to install `rsync` on your host machine to enable `/vagrant/` shared folder.
+
+Visit running app in your host machine browser: http://localhost:8080
