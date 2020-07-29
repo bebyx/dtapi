@@ -2,6 +2,8 @@
 
 [Vagrant](https://www.vagrantup.com/)-empowered script to deploy dtapi app ([backend](https://github.com/yurkovskiy/dtapi) and [frontend](https://github.com/yurkovskiy/IF-105.UI.dtapi.if.ua.io)) connected to database server on a separate VM.
 
+## Environment details
+
 **Technologies:** PHP Ko7, Angular, MySQL (MariaDB), Apache.
 
 **Host machine OS:** Debian GNU/Linux bullseye/sid x86_64 — SMP Debian 5.7.6-1 (2020-06-24)
@@ -18,7 +20,7 @@
 
 **Vagrant box image:** [debian/buster64](https://app.vagrantup.com/debian/boxes/buster64) (virtualbox, 10.4.0)
 
-# Host machine dependencies
+## Host machine dependencies
 
 You obviously will need Vagrant installed on your host machine. The recommended way is to install [the latest version](https://www.vagrantup.com/downloads) locally. (Indeed, the one from official Bullseye repository just breaks).
 
