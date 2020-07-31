@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
-apt update #&& apt upgrade -y
+apt update && apt upgrade -y
 apt install mariadb-server wget -y
 
 mariadb -u root <<-EOF
